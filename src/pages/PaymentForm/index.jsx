@@ -244,9 +244,10 @@ function PaymentForm() {
                     />
                   )}
                   {!!custom_fields &&
-                    custom_fields?.map((item) => (
+                    custom_fields?.map((item, index) => (
                       <FormControl
                         type="input"
+                        key={index}
                         name={item?.field}
                         label={item?.name}
                         value={formik.values?.[item?.field] || ""}

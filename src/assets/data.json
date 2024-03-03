@@ -1,0 +1,130 @@
+{
+  "code": 200,
+  "message": "success",
+  "data": {
+    "id": "283a8736-004e-4b72-a871-149dc8303576",
+    "tokens": [
+      {
+        "id": "USDT_ARBI",
+        "receiver": "od9jGcACCNaXdnomqk6GFYBD2aVtJqk4WNqBszZn4z9",
+        "blockchain": "arbitrum",
+        "image_url": "https://cdn.mugglepay.com/pay/media/icons/USDT_ARBI.png",
+        "token": "11111111111111111111111111111111",
+        "symbol": "USDT-Arbitrum",
+        "decimals": 9,
+        "fee": {
+          "amount": "1%",
+          "receiver": "Cu6zsUVrFn3cpmhqgjaHbx9mPwS4jYbajGPhrT8HFfjT"
+        },
+        "amount": 0.899,
+        "createdAt": "2024-02-13T15:47:42.000Z",
+        "updatedAt": "2024-02-13T15:47:42.000Z"
+      },
+      {
+        "id": "USDT_TRON",
+        "receiver": "od9jGcACCNaXdnomqk6GFYBD2aVtJqk4WNqBszZn4z9",
+        "blockchain": "tron",
+        "image_url": "https://cdn.mugglepay.com/pay/media/icons/USDT_TRON.png",
+        "token": "11111111111111111111111111111111",
+        "symbol": "USDT-Trc20",
+        "decimals": 9,
+        "fee": {
+          "amount": "1%",
+          "receiver": "Cu6zsUVrFn3cpmhqgjaHbx9mPwS4jYbajGPhrT8HFfjT"
+        },
+        "amount": 0.899,
+        "createdAt": "2024-02-13T15:47:42.000Z",
+        "updatedAt": "2024-02-13T15:47:42.000Z"
+      },
+      {
+        "id": "ETH",
+        "receiver": "od9jGcACCNaXdnomqk6GFYBD2aVtJqk4WNqBszZn4z9",
+        "blockchain": "ethereum",
+        "image_url": "https://cdn.mugglepay.com/pay/media/icons/ETH.png",
+        "token": "11111111111111111111111111111111",
+        "symbol": "ETH",
+        "decimals": 9,
+        "fee": {
+          "amount": "1%",
+          "receiver": "Cu6zsUVrFn3cpmhqgjaHbx9mPwS4jYbajGPhrT8HFfjT"
+        },
+        "amount": 0.899,
+        "createdAt": "2024-02-13T15:47:42.000Z",
+        "updatedAt": "2024-02-13T15:47:42.000Z"
+      },
+      {
+        "id": "USDC_ETH",
+        "receiver": "od9jGcACCNaXdnomqk6GFYBD2aVtJqk4WNqBszZn4z9",
+        "blockchain": "ethereum",
+        "image_url": "https://cdn.mugglepay.com/pay/media/icons/USDC_ETH.png",
+        "token": "11111111111111111111111111111111",
+        "symbol": "USDC-Erc20",
+        "decimals": 9,
+        "fee": {
+          "amount": "1%",
+          "receiver": "Cu6zsUVrFn3cpmhqgjaHbx9mPwS4jYbajGPhrT8HFfjT"
+        },
+        "amount": 0.899,
+        "createdAt": "2024-02-13T15:47:42.000Z",
+        "updatedAt": "2024-02-13T15:47:42.000Z"
+      },
+      {
+        "id": "USDT_ETH",
+        "receiver": "od9jGcACCNaXdnomqk6GFYBD2aVtJqk4WNqBszZn4z9",
+        "blockchain": "ethereum",
+        "image_url": "https://cdn.mugglepay.com/pay/media/icons/USDT_ETH.png",
+        "token": "11111111111111111111111111111111",
+        "symbol": "USDT-Erc20",
+        "decimals": 9,
+        "fee": {
+          "amount": "1%",
+          "receiver": "Cu6zsUVrFn3cpmhqgjaHbx9mPwS4jYbajGPhrT8HFfjT"
+        },
+        "amount": 0.899,
+        "createdAt": "2024-02-13T15:47:42.000Z",
+        "updatedAt": "2024-02-13T15:47:42.000Z"
+      }
+    ],
+    "fields": {
+      "requires_name": false,
+      "requires_email": true,
+      "requires_country": false,
+      "requires_quantity": { "max": 12, "min": 1 },
+      "requires_billing_address": false,
+      "requires_shipping_address": false
+    },
+    "custom_fields": [
+      {
+        "name": "Wallet Address",
+        "field": "address",
+        "caption": "Please Enter you Arbitrum Wallet Address"
+      }
+    ],
+    "product": {
+      "product_id": "283a8736-004e-4b72-a871-149dc8303576",
+      "merchantId": "076f62c9-0603-4100-b904-5888f35721ef",
+      "type": "payment",
+      "price": "0.99",
+      "currency": "USD",
+      "name": "Premium creative minimalist business logo design",
+      "description": "Create designs that leave a lasting impression and set your business apart in today's competitive market",
+      "image_url": "https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/324073623/original/a67622a762508efdbe2f66d3312c028afa3674cd/do-premium-creative-minimalist-business-logo-design.jpg",
+      "createdAt": "2024-02-28T06:13:01.000Z",
+      "updatedAt": "2024-02-28T06:13:01.000Z"
+    },
+    "merchant": {
+      "merchant_id": "076f62c9-0603-4100-b904-5888f35721ef",
+      "name": "Premium Creative Shop",
+      "image_url": "https://fiverr-res.cloudinary.com/image/upload/t_profile_original,q_auto,f_auto/v1/attachments/profile/photo/889d5d3963162733260196ce70b03b30-1681692652411/a0aa280f-8630-4ae4-9f6e-2911cc79ef22.png",
+      "style": {
+        "colors": {
+          "qrCode": "#185290",
+          "primary": "#1677ff",
+          "buttonText": "#FFFFFF"
+        }
+      },
+      "createdAt": "2024-02-28T06:13:00.000Z",
+      "updatedAt": "2024-02-28T06:13:00.000Z"
+    }
+  }
+}

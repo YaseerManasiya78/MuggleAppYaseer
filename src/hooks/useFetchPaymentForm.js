@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import datas from "../assets/data.json";
 const baseUrl = process.env.REACT_APP_BASE_API_URL;
 
 const useFetchPaymentFormData = () => {
@@ -24,7 +25,8 @@ const useFetchPaymentFormData = () => {
   };
 
   useEffect(() => {
-    fetchData();
+    // fetchData();
+    setData(datas?.data);
   }, []);
 
   return { data, loading };
