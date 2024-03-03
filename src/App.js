@@ -5,7 +5,6 @@ import "./index.css";
 const PaymentForm = lazy(() => import("./pages/PaymentForm"));
 const Success = lazy(() => import("./pages/Success"));
 
-// Define App component
 function App() {
   return (
     <Router>
@@ -19,5 +18,4 @@ function App() {
   );
 }
 
-// Export App component
 export default App;
